@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1
+{
+        
+         font-family:Comic sans MS;
+         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px yellow;
+}
+body {
+     background-image: url(img.png) 
+    
+    }
+</style>
+</head>
+<body><br></br>
+<center><h1>Hostel Incharge's Login</h1></center>
+
+<br></br><br></br><center><table border="3">
+    <tr><td>Hostel's Incharge Name</td><td><input type="text" name="nm" size="20"></td></tr>
+    <td>Password</td><td><input type="password" name="pwd" size="20"></td></center>
+</body>
+</html> 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Css descendent selector</title>
+        <style>
+              body legend
+                 {
+                        background:#00b900;
+                  }
+        </style>
+
+</head>
+<body bgcolor="#00b900"><a href="Home_page.html" target="xyz"><img src="c6ead8_cabf74e56f3b4e5ca63adbb87e235d5b.png" width=30 height=30></a>
+<script>
+        $(document).ready(function(){
+           $("input").focus(function(){
+              $(this).css("background-color","#cccccc");
+            });
+          $("input").blur(function(){
+              $(this).css("background-color","#ffffff");
+           });
+});
+</script>
+     
+    <br></br><br></br>
+      <div align="center">
+    <form method="post">
+        
+        <fieldset style="display: inline-flex; background-color: #00b900;">
+            <legend><strong><h1>Administrator Task</h1></strong></legend>
+                  <table><tr><td>
+                   <tr><td><b>Registration Roll no.:</b></td><td><input type="text" name="t6" size="20" required/></td></tr>
+                   
+                   <tr><td><input type="submit" name="nm" value="Submit"></td><td><input type="reset" name="nm" value="Reset"></td></tr>
+                  </table> 
+       </fieldset>
+       
+     </form>
+    </div>
+    <center><p>Copyright @ All Right Reserved Design by Karan Soren :)</p></center>
+</body>
+</html>

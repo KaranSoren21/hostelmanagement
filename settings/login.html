@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<a href="Home_page.html" target="xyz"><img src="c6ead8_cabf74e56f3b4e5ca63adbb87e235d5b.png" width=30 height=30></a>
+    <title>Css descendent selector</title>
+        <style>
+              body legend
+                 {
+                        background:#00b900;
+                  }
+        </style>
+
+</head>
+<body bgcolor="#00b900">
+
+<script>
+        $(document).ready(function(){
+           $("input").focus(function(){
+              $(this).css("background-color","#cccccc");
+            });
+          $("input").blur(function(){
+              $(this).css("background-color","#ffffff");
+           });
+});
+</script>
+     
+    <br></br><br></br>
+      <div align="center">
+    <form action="students_records.php"  method="get">
+        
+        <fieldset style="display: inline-flex; background-color: #00b900;">
+            <legend><strong><h1>Login Panel</h1></strong></legend>
+                  <table>
+                   <tr><td><p><strong><label for="regis">Registration no.:</label></td><td><input type="text" name="t6" id="nm" placeholder="Enter Registration" required/>*</p></strong></td></tr><br>
+                    <tr><td><p><strong><label for="pass">Password:</label></td><td><input type="password" name="t26" id="pwd" placeholder="Enter Password" required/>*</p></td></strong></tr><br>
+                      <tr><td><input type="submit" name="btn-login" value="Submit"></td><td><input type="reset" name="nm" value="Reset"></td></tr>    
+                   </table> 
+       </fieldset>
+       
+     </form>
+    </div>
+<div id="foot2"></div>
+	<center><p>Copyright @ All Right Reserved Design by Karan Soren :)</p></center>
+	</body>
+</html>

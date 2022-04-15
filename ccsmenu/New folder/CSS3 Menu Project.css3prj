@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Css3Menu>
+    <project version="1.1">
+        <params>
+            <HasChanges>true</HasChanges>
+            <EmbandImg>false</EmbandImg>
+            <Data>var menuStyle={
+	&quot;menu&quot;:{
+		&quot;fontStyle&quot;:[&quot;normal 13px Arial,sans-serif&quot;,&quot;normal 13px Arial,sans-serif&quot;],
+		&quot;fontColor&quot;:[&quot;#D3D3D3&quot;,&quot;#FFFFFF&quot;],
+		&quot;itemBackColor&quot;:[&quot;#525252&quot;,&quot;#525252&quot;],
+		&quot;menuBackColor&quot;:&quot;&quot;,
+		&quot;arrowImageMain&quot;:[&quot;images/arrowmain0.gif&quot;,&quot;images/arrowmain1.gif&quot;],
+		&quot;arrowWidth&quot;:7,
+		&quot;arrowImageSub&quot;:[&quot;images/arrowsub.png&quot;,&quot;images/arrowsub.png&quot;],
+		&quot;arrowWidthSub&quot;:8,
+		&quot;separatorImage&quot;:&quot;images/hsep.png&quot;,
+		&quot;separatorHeight&quot;:&quot;1px&quot;,
+		&quot;separatorVWidth&quot;:&quot;1&quot;,
+		&quot;separatorPadding&quot;:&quot;0px&quot;,
+		&quot;DX&quot;:&quot;0&quot;,
+		&quot;DY&quot;:&quot;0&quot;
+		},
+	&quot;topmenu&quot;:{
+		&quot;itemPadding&quot;:&quot;3px 10px&quot;,
+		&quot;itemSpacing&quot;:10,
+		&quot;itemBorderRadius&quot;:&quot;10px&quot;,
+		&quot;itemBorderWidth&quot;:&quot;0 0 3px 0&quot;,
+		&quot;itemBorderStyle&quot;:[&quot;none&quot;,&quot;none&quot;],
+	},
+	&quot;submenu&quot;:{
+		&quot;itemBackColor&quot;:[&quot;#525252&quot;,&quot;#3A3A3A&quot;],
+		&quot;menuBackColor&quot;:&quot;#525252&quot;,
+		&quot;menuBorderRadius&quot;:&quot;0 0 10px 10px&quot;,
+		&quot;menuPadding&quot;:&quot;0 0 10px 0&quot;,
+		&quot;itemPadding&quot;:&quot;4px&quot;,
+		&quot;itemBorderColor&quot;:[&quot;#444444&quot;,&quot;#787878&quot;],
+		&quot;itemBorderStyle&quot;:[&quot;solid&quot;,&quot;solid&quot;],
+		&quot;itemBorderWidth&quot;:&quot;0 0 1px 0&quot;,
+		&quot;itemSpacing&quot;:0
+		},
+	&quot;topfirst&quot;:{
+		},
+	&quot;toplast&quot;:{
+		},
+	&quot;toproot&quot;:{
+		&quot;itemBorderRadius&quot;:[&quot;10px&quot;,&quot;10px 10px 0 0&quot;],
+		&quot;itemBorderStyle&quot;:[&quot;none&quot;,&quot;solid&quot;],
+		&quot;itemBorderColor&quot;:[&quot;#525252&quot;,&quot;#525252&quot;]
+		},
+	&quot;subsubmenu&quot;:{
+		&quot;menuPadding&quot;:&quot;10px 0 10px 0&quot;,
+		&quot;menuBorderRadius&quot;:&quot;10px&quot;
+		}
+	};</Data>
+            <isHorizontal>1</isHorizontal>
+            <smMaxRows>0</smMaxRows>
+            <FontFamily>Impact,Charcoal,sans-serif</FontFamily>
+            <FontSize>13</FontSize>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+            <Underline>false</Underline>
+            <OverUnderline>false</OverUnderline>
+            <FontFamily1>Arial,sans-serif</FontFamily1>
+            <FontSize1>13</FontSize1>
+            <Bold1>false</Bold1>
+            <Italic1>false</Italic1>
+            <Underline1>false</Underline1>
+            <OverUnderline1>false</OverUnderline1>
+            <TextColor0>#ffff00</TextColor0>
+            <TextColor1>#ffaa00</TextColor1>
+            <SubTextColor0>#D3D3D3</SubTextColor0>
+            <SubTextColor1>#FFFFFF</SubTextColor1>
+            <ItemBackColor0>#005500</ItemBackColor0>
+            <ItemBackColor1>#00ff00</ItemBackColor1>
+            <SubitemBackColor0>#525252</SubitemBackColor0>
+            <SubitemBackColor1>#3A3A3A</SubitemBackColor1>
+            <itemBorderRadius0>10</itemBorderRadius0>
+            <itemBorderRadius1>0</itemBorderRadius1>
+            <menuBorderRadius0>0</menuBorderRadius0>
+            <menuBorderRadius1>10</menuBorderRadius1>
+            <itemAlign>left</itemAlign>
+            <itemAlignTop>left</itemAlignTop>
+            <smOpacity>100</smOpacity>
+            <menuWidth>877</menuWidth>
+            <menuHeight>43</menuHeight>
+            <autoSize>true</autoSize>
+            <width100>false</width100>
+            <responsive>true</responsive>
+            <topCrossover>false</topCrossover>
+            <subCrossover>false</subCrossover>
+            <effect>0</effect>
+            <rtl>false</rtl>
+            <index>1</index>
+        </params>
+        <items>
+            <item>
+                <text>Hosteller Login</text>
+                <link>D:\Study Plan1\OJT\Final Project\Student sign up link.html</link>
+                <hint></hint>
+                <target></target>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Hosteller Sign up</text>
+                <link>D:\Study Plan1\OJT\Final Project\signup.html</link>
+                <hint></hint>
+                <target></target>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Forget Password</text>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Hostel Incharge Login</text>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Fee Structure</text>
+                <link>D:\Study Plan1\OJT\Final Project\Fee Structure.html</link>
+                <hint></hint>
+                <target></target>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Payment Mode</text>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Gallery</text>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>About us</text>
+                <pressed>0</pressed>
+            </item>
+        </items>
+        <media>
+            <img src=""></img>
+            <img src="arrow.gif">R0lGODlhBwAMAKIFAL6+vtra2ry8vL29vcjIyP///wAAAAAAACH5BAEAAAUALAAAAAAHAAwAAAMZWLoVZoyMFwVdEkaglREWxmETZmlZ53RFAgA7</img>
+            <img src="arrowmain0.gif">R0lGODlhBwAEAIABAKWlpQAAACH5BAEAAAEALAAAAAAHAAQAAAIIhA+BGWoNWSgAOw==</img>
+            <img src="arrowmain1.gif">R0lGODlhBwAEAIABAPHx8f///yH5BAEKAAEALAAAAAAHAAQAAAIIhA+BGWoNWSgAOw==</img>
+            <img src="arrowsub.png">iVBORw0KGgoAAAANSUhEUgAAB9AAAAAFCAYAAAAdbHdrAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wBFws0J0vzmR8AAACkSURBVHja7d0xDsIwEATANW8JfZDC/x9AJNKTv5jGRgGFD1gz1UnXuV3tudRakyTrtqepSbLMU0mSUkoAAAAAAAAAYBSP56smyf12/QrEL31Y5in5Cc8BAAAAAAAAYDQ9OO9BevcJ0Ndt74tyaKMDAAAAAAAAwHDOQvRjA723zmtrowMAAAAAAADAkM7OuB8b6ElS2lw9FwAAAAAAAAAj+vcH+huhMSsK+N1VhQAAAABJRU5ErkJggg==</img>
+            <img src="hsep.png">iVBORw0KGgoAAAANSUhEUgAAAIsAAAABCAIAAABhUMoWAAAAV0lEQVR42oWKAQ6AMAgDAf//UPcHN5V1jMGMbQLXplzOUhv8CC/rUldspqgfam0pfUO04QD0Z8xU1gT+EqtzDDAjc79MyVau4NOGx8aisLw61B4EPQYiNyl7jbMp+HT4AAAAAElFTkSuQmCC</img>
+        </media>
+    </project>
+</Css3Menu>

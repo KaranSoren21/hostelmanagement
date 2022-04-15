@@ -1,0 +1,45 @@
+ul#css3menu0{
+	margin:0;list-style:none;padding:10px 10px 10px 0;background-color:;border-width:0;border-style:solid;border-color:;font-size:0;z-index:999;position:relative;display:inline-block;zoom:1;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;
+	*display:inline;}
+ul#css3menu0 li{
+	display:block;white-space:nowrap;font-size:0;float:left;}
+* html ul#css3menu0 li a{
+	display:inline-block;}
+ul#css3menu0>li{
+	margin:0 0 0 10px;}
+ul#css3menu0 a:active, ul#css3menu0 a:focus{
+	outline-style:none;}
+ul#css3menu0 a{
+	display:block;vertical-align:middle;text-align:center;text-decoration:none;font:13px "Times New Roman",Times,serif;color:#ffff00;cursor:default;padding:3px;background-color:#005500;background-repeat:repeat;border-width:0px;border-style:none;border-color:;}
+ul#css3menu0 li:hover>a,ul#css3menu0 li a.pressed{
+	background-color:#005500;border-style:none;color:#ffff00;text-decoration:none;}
+ul#css3menu0 > label.switch{
+	display:none;cursor:pointer;width:25px;height:20px;padding:3px 10px;}
+ul#css3menu0 > label.switch:before{
+	content:"";position:absolute;display:block;height:4px;width:25px;border-radius:4px;background:#ffff00;-moz-box-shadow:0 8px #ffff00, 0 16px #ffff00;-webkit-box-shadow:0 8px #ffff00, 0 16px #ffff00;box-shadow:0 8px #ffff00, 0 16px #ffff00;}
+ul#css3menu0 > label.switch:hover:before{
+	background:#ffff00;-moz-box-shadow:0 8px #ffff00, 0 16px #ffff00;-webkit-box-shadow:0 8px #ffff00, 0 16px #ffff00;box-shadow:0 8px #ffff00, 0 16px #ffff00;}
+ul#css3menu0 > .switchbox{
+	display:none;}
+ul#css3menu0>li>a{
+	padding:3px 10px;}
+ul#css3menu0 li.topmenu>a{
+	border-width:0 0 3px 0;border-style:none;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;padding:3px 10px;}
+ul#css3menu0 li.topmenu:hover>a,ul#css3menu0 li.topmenu a.pressed{
+	border-style:none;}
+@media screen and (max-width: 863px) {
+	ul#css3menu0 > li {
+		position: initial;}
+	ul#css3menu0 ul .submenu,ul#css3menu0 li > ul {
+		left: 0; right:auto; top: 100%;}
+	ul#css3menu0 .submenu,ul#css3menu0 ul,ul#css3menu0 .column {
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;padding-right: 0;width: 100% !important;}
+}
+@media screen and (max-width: 862px) {
+	ul#css3menu0 {
+		width: 100%;}
+	ul#css3menu0 > li {
+		display: none !important;		position: relative;		width: 100% !important;}
+	ul#css3menu0 > label.switch,ul#css3menu0 .switchbox:checked ~ li {
+		display: block !important;}
+}

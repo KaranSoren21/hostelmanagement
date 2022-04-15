@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+<a href="Admin login.html"><input type="button" value="Logout" onclick="logout();" size="50"></a>
+<div align="center">  
+<form name="nm" action="hostelbill.php" method=get>
+
+<fieldset style="display: inline-flex; background-color: white;">
+<h1 style="font-size:250%">St.Xavier's Hostel,Ranchi</h1><img src="sxc.png" bgcolor=lightgrey width=120 height=120>
+<h3>HOSTEL BILL</h3>
+
+ 
+
+<table>
+<tr><td>Name</td><td><input type="text" name="t29" value="" size="20"></td></tr><br>
+<tr><td>Class Roll no.</td><td><input type="text" name="t30" value="" size="20"></td></tr><br>
+<tr><td>Registration no.</td><td><input type="text" name="t31" value="" size="20"></td></tr><br>
+<tr><td>Hostel Block</td><td><input type="text" name="t32" value="" size="20"></td></tr><br>
+<tr><td>Room sitter</td><td><input type="text" name="t33" value="" size="20"></td></tr><br>
+<tr><td>Amount</td><td><input type="text" name="t34" value="" size="20"></td></tr><br>
+</table>
+<p>__________________________________</p>
+<p>Duly signed by Hostel's Incharge</p>
+<center><input type="submit" value="Submits">&nbsp&nbsp&nbsp<input type="reset" value="Reset"></center>
+
+
+</fieldset>
+</align>  
+</form>
+<form name="nm1" action="hostelbilldatabase.php" method=get>
+<input type="submit" value="View HostelBill Database"/>
+
+</form>
+	  <script language="javascript">
+               function check()
+                {
+                      window.print();
+                     }
+          </script>
+
+     <input type="button" value="Print" onclick="check();" size="50">
+</html>
